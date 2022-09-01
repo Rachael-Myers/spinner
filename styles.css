@@ -1,0 +1,36 @@
+body {
+    background: #1e1e1e;
+  }    
+  
+  .rocket {
+      width: 150px;
+      height: 150px;
+      margin: 1em;
+      border: 3px dashed teal;
+      border-radius: 50%;
+      background-color: rgba(128,128,128,0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .rocket h1 {
+      margin: 0;
+      padding: 0;
+      font-size: .8em;
+      color: skyblue;
+      letter-spacing: 1em;
+      text-shadow: 0 0 10px black;
+    }
+    
+    .button {
+      margin: 10px;
+      background: #000;
+      color: white;
+      font-size: 1em;
+      padding: .3em;
+      border: 2px solid red;
+      outline: none;
+      letter-spacing: 3px;
+    }
+  
