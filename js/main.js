@@ -1,4 +1,4 @@
-var rocket = document.querySelector('.rocket');
+var wheel = document.querySelector('.wheel');
 var btn = document.querySelector('.button');
 var rotate = false;
 var runner;
@@ -7,7 +7,7 @@ var degrees = 0;
 function start(){
     runner = setInterval(function(){
         degrees++;
-        rocket.style.webkitTransform = 'rotate(' + degrees + 'deg)';
+        wheel.style.webkitTransform = 'rotate(' + degrees + 'deg)';
     },10)
 }
 
