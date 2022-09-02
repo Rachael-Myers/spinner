@@ -30,3 +30,4 @@ btn.addEventListener('click', function(){
         stop();
     }
 })
+//let degree1 = degrees % 360
