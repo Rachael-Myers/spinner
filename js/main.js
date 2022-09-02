@@ -8,7 +8,7 @@ function start(){
     runner = setInterval(function(){
         degrees++;
         wheel.style.webkitTransform = 'rotate(' + degrees + 'deg)';
-    },10)
+    },.01)
 }
 
 function stop(){
