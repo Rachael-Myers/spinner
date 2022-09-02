@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'NotoSansRUnic';
+  src: url(/fonts/NotoSansRunic-Regular.ttf);
+}
+@font-face {
+  font-family: 'RUNE'; 
+  src: url(/fonts/RUNE.TTF);
+}
+@font-face {
+  font-family: 'VikingElderBold';
+  src: url(/fonts/viking_elder_runes_bold.ttf);
+}
+@font-face {
+  font-family: 'VikingElderReg';
+  src: url(/fonts/viking_elder_runes.ttf);
+}
+
+
+
 body {
   
     background: #1e1e1e;
@@ -103,6 +122,7 @@ body {
       text-align: center;
       background: #000;
       color: rgb(248, 3, 3);
+      
       font-size: 2em;
       padding: .8em;
       border: 8px double rgb(147, 150, 88);
