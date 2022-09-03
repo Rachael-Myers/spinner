@@ -31,4 +31,6 @@ btn.addEventListener('click', function(){
         stop();
     }
 })
+var runeNumber = Math.floor((degrees%360)/15);
+
 //let degree1 = degrees % 360
