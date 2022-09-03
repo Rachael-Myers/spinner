@@ -4,11 +4,12 @@ wheelOfRunes.listofanswers = ["Fehu.", "Ehwaz.", "Dagaz.", "Kenaz.", "Berkano.",
 
 
 
-var wheel = document.querySelector('.wheel');
-var btn = document.querySelector('.button');
-var rotate = false;
-var runner;
+let wheel = document.querySelector('.wheel');
+let btn = document.querySelector('.button');
+let rotate = false;
+let runner;
 var degrees = 0;
+
 
 function start(){
     runner = setInterval(function(){
